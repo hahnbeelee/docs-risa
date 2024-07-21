@@ -1,98 +1,256 @@
 ---
-title: 'Development'
-description: 'Learn how to preview changes locally'
+title: Abundant Intelligence
+description:
+  "The Top Generative AI Opportunities We're Seeing in Apps and Infra"
 ---
 
-<Info>
-  **Prerequisite** You should have installed Node.js (version 18.10.0 or
-  higher).
-</Info>
+Over the past 50 years, the tech industry has been built on two complementary
+phenomena. One is its ability to take “intelligence” from scarcity to abundance.
+Thanks to more powerful processors (Moore’s Law) and inexpensive storage, large
+rooms of people adding up numbers have been shrunk down to a single formula in
+Excel. The other major trend has been the improvement in user interfaces, as
+we’ve moved from punch cards to command lines to GUIs to touch screens. This has
+made “abundant intelligence” more accessible and easier for people to use.
 
-Step 1. Install Mintlify on your OS:
+Both these trends converged with ChatGPT in November 2022. Large language models
+like GPT-3 and -4 bring complex tasks that were previously beyond technology
+within reach. The form factor, a friendly chatbot, resonates with consumers
+who’ve been trained by Siri and Google Assistant to ask questions. The impact
+has been immediate and dramatic. Schools can no longer tell the difference
+between original work and the output of skillful prompts. Companies fear
+employees inadvertently fine-tuning models on confidential information.
+Governments are talking about regulation. Everyone is certain that generative
+artificial intelligence will transform society, but no one knows exactly how or
+what to do about it.
 
-<CodeGroup>
+That is the opportunity for a new generation of entrepreneurs and why the BCV
+team is so excited about the coming age of AI. In the past year, we’ve seen
+three breakout products race past $100 million in revenue from millions of
+users: ChatGPT, GitHub Copilot and Midjourney. Many others hold the promise to
+do the same. In some ways, these companies look unlike anything we’ve seen
+before, with huge compute and infrastructure needs. In others, they look
+strikingly familiar, with opinionated founders, clear visions and awe-inspiring
+execution.
 
-```bash npm
-npm i -g mintlify
-```
+Many people look to mobile and cloud as analogs for what the next few years will
+bring. We believe this is misleading. Mobile and cloud were new distribution
+channels that favored upstarts over incumbents, whereas AI is a new foundational
+technology. In that way, it’s more akin to the microprocessor than the iPhone.
+The distinction matters because new technologies are easier for incumbents to
+build into their existing solutions. We have already seen this from Microsoft
+(copilot for everything), Adobe (Firefly) and many other large companies who
+recognize the opportunity (and threat) and are moving with surprising speed.
 
-```bash yarn
-yarn global add mintlify
-```
+The implication: Startups will need to pick their spots carefully. We see
+several areas where new companies will have the advantage.
 
-</CodeGroup>
+## Expanding the Application Universe
 
-Step 2. Go to the docs are located (where you can find `mint.json`) and run the following command:
+In many ways, it’s a marvel that application software has grown to be a
+[$140 billion industry](https://www.researchandmarkets.com/reports/5713203/application-development-software-market-by).
+Ask most users, from salespeople to doctors, and they’ll tell you it has not
+lived up to the promise, and is often increasing their workloads. That’s because
+most applications are “dumb” — they map imperfectly to workflows, have no
+context and require too much work from users. Generative AI has the potential to
+change that across a broad range of industries.
 
-```bash
-mintlify dev
-```
+AI or “copilot” software will massively increase the productivity of a
+significant portion of the more than
+[one billion knowledge workers](https://www.forrester.com/blogs/the-global-information-worker-population-swells-to-1-25-billion-in-2018)
+worldwide performing general tasks like writing documents, taking notes and
+performing calculations. This spans front office (sales, marketing), back office
+(finance, HR) and other functions (IT service management, engineering).
+AI-powered assistants will vastly improve the customer experience across
+e-commerce, social media, fintech, on-demand delivery and healthcare,
+transforming the customer support industry that today employs about
+[17 million contact center agents](https://www.gartner.com/en/newsroom/press-releases/2022-08-31-gartner-predicts-conversational-ai-will-reduce-contac).
+Everyone will become a creator, thanks to LLMs, text-to-image and text-to-video
+models, transforming industries such as movie production, marketing copywriting
+and advertising.
 
-The documentation website is now available at `http://localhost:3000`.
+Most of the value created from these obvious opportunities will accrue to
+incumbents that are already embedded into customer workflows. New companies will
+form around non-obvious ideas that require both imagination and technical
+ability beyond most  companies, which remain focused retrofitting their existing
+(often strong) businesses with generative AI. We see three main kinds of
+opportunity for these new companies:
 
-### Custom Ports
+**Greenfield opportunities, converting services into software revenue**  
+There are some activities that were previously beyond the reach of software that
+can now be automated. These are semi-structured repetitive tasks — one founder
+described them to us as “mundane decisions” — that historically needed just
+enough human judgment to put them out of reach of deterministic, analytical AI.
+There are countless examples: software development, legal work, insurance claim
+processing, anything done by operations teams. The world is awash in mundane
+decisions that can now be automated. Some companies doing this work include
+[EvenUp](http://cms.baincapitalventures.com/insight/leveling-the-legal-playing-field-through-ai-why-we-invested-in-evenup/),
+[Harvey.ai](http://harvey.ai/), [Maven](https://www.mavenagi.com/) and
+[Runway ML](https://runwayml.com/).
 
-Mintlify uses port 3000 by default. You can use the `--port` flag to customize the port Mintlify runs on. For example, use this command to run in port 3333:
+**Masking complexity in workflows that cannot change**  
+It’s easy to reimagine large parts of our economy, such as healthcare or
+government services, but it’s very hard for them to actually change. With
+generative AI, it’s now possible to put a layer of software on top of the
+inefficiencies to vastly improve customer experience. Medical billing, virtual
+therapy, government procurement, planning approval — the possibilities are
+endless. These opportunities have the potential to be disruptive to incumbents.
+They form a layer of abstraction on top of underlying systems, rather than
+challenge them directly.
 
-```bash
-mintlify dev --port 3333
-```
+**Radical reimagining of what an “application” should be**  
+In productivity software, it took years of iteration before we evolved from Word
+to Notion, a radically different product. LLMs are a much more profound shift in
+that they change how we interact with software. The chat interface is a familiar
+start (think designing “a faster horse” or filming radio shows), but what’s
+possible if apps were truly built in an AI-native way?
 
-You will see an error like this if you try to run Mintlify in a port that's already taken:
+![](http://cms.baincapitalventures.com/wp-content/uploads/2023/07/App-Opportunities-for-Generative-AI.png)
 
-```md
-Error: listen EADDRINUSE: address already in use :::3000
-```
+## Building the New Infrastructure Stack
 
-## Mintlify Versions
+Like code, models are complicated and costly to run. Infrastructure tools not
+only address these issues, but also make models more powerful by chaining them
+together and improving model accuracy. This, in turn, enables AI to address more
+complex use cases.
 
-Each CLI is linked to a specific version of Mintlify. Please update the CLI if your local website looks different than production.
+Much attention has been paid to middleware that connects models, such as
+Langchain and AutoGPT, and to vector databases, like Pinecone, Weaviate and
+Chroma. But there are a number of equally promising areas that have not
+attracted as much attention:
 
-<CodeGroup>
+**Unstructured data management**  
+The data most useful in a workflow is often the hardest to capture. In real
+time, inboxes get flooded, Slack messages are traded and meaningful knowledge is
+lost in a chaotic roulade of logs and events. What if we could harness that data
+and use it downstream? The result would be transformative for both enterprise
+and consumer applications. The topology of data would differ depending on the
+use case, from CAD file ingestion for structural engineers to fuzzy satellite
+images for naval intelligence, to PDFs for investment banks. Extracting,
+curating and feeding this data to models via few-shot prompts or vector
+databases unlocks domain specificity regardless of the model or vertical. Some
+of the companies in this area include
+[Unstructured](https://www.unstructured.io/), [Cleanlab](https://cleanlab.ai/),
+[Llama Index](https://www.llamaindex.ai/), [Metal](https://getmetal.io/), Hybrid
+Index and [Vectara](https://vectara.com/).
 
-```bash npm
-npm i -g mintlify@latest
-```
+**Agent-driven automation**  
+Incumbents today are focused on integrating surface-level chat interfaces into
+their existing products and expecting users to know how and when to interrupt
+their workflow to use a chatbot. We’re skeptical that chat is a universal
+modality. The [Toolformer paper](https://arxiv.org/abs/2302.04761) and ensuing
+frameworks like [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) and
+[BabyAGI](https://pub.towardsai.net/meet-babyagi-the-autonomous-ai-agent-to-streamline-your-tasks-f44cb9de5503)
+have proven language models’ abilities to perform chain-of-thought reasoning and
+execute workflows by focusing on subtasks. In production settings, though,
+agents are not suitable for much more than enthralling Twitter threads. They
+collapse under the weight of recursive hallucination, incur outsized compute
+costs from repetitive calls to an LLM endpoint and lack memory to learn from
+prior executions. At the risk of egregious anthropomorphism, we believe future
+agent frameworks will behave as present humans do: with collaboration, cost,
+memory and utility in mind. One way to achieve this is with multiple agents that
+each have a different goal or cost function, and then having an orchestration
+layer assign tasks to each agent based on the prompt. AutoGPT, BabyAGI and
+[Langchain Agents](https://python.langchain.com/docs/modules/agents/) have
+dominated the conversation around agent frameworks thus far, and we’re excited
+to watch the next evolution of the space.
 
-```bash yarn
-yarn global upgrade mintlify
-```
+**Evaluation**  
+Most LLM-based apps we’ve seen in production today chain together various
+open-source and hosted models, leading to two issues: model selection and model
+experimentation.
 
-</CodeGroup>
+- **Model selection:** The current leading evaluation framework for foundation
+  models is HeLM, but model results are constrained to research settings. Our
+  portfolio company [Moveworks](https://www.moveworks.com/) experienced this
+  problem firsthand and published its own evaluation criteria, which is closer
+  to real world usage. We think there is a future product category here. As
+  open-source models proliferate and large hosted models compete on ergonomics,
+  cost, vertical focus and degrees of enterprise suitability, a product is
+  needed to evaluate models in real time for the task at hand and automatically
+  choose the right one. Similar to the recent growth we’ve seen in the cloud
+  operations management category, we believe an analogous model operations
+  management category is emerging to help enterprises choose the right model
+  automatically. [Hugging Face](https://huggingface.co/) is well-positioned
+  here.
+- **Model experimentation:** As LLM-based features proliferate, product teams
+  will have a difficult time assessing the quality of AI responses to their end
+  users. LLM outputs are nondeterministic, and so it is very hard to measure
+  output metadata like response time, latency, reliability, validity and its
+  downstream impacts on typical product metrics like conversion and engagement.
+  These are natural extensions for existing model observability companies like
+  [WhyLabs](https://whylabs.ai/), [Arize](https://arize.com/) and
+  [Truera](https://truera.com/), as well as existing model experimentation
+  companies like [Weights & Biases](https://wandb.ai/site) and
+  [CometML](https://www.comet.com/site/). We’re looking towards a potential new
+  breed of A/B testing and feature-flagging paradigm for product teams, and
+  companies like [Statsig](https://www.statsig.com/) and others are well
+  positioned to rise to the task.
 
-## Deployment
+![](http://cms.baincapitalventures.com/wp-content/uploads/2023/07/Opportunties-in-Infrastructure.png)
 
-<Tip>
-  Unlimited editors available under the [Startup
-  Plan](https://mintlify.com/pricing)
-</Tip>
+## Looking Ahead
 
-You should see the following if the deploy successfully went through:
+It’s dangerous to make predictions when the landscape shifts on a weekly basis.
+But our current best guess is that three kinds of companies will be on the
+leading edge of generative AI in the enterprise.
 
-<Frame>
-  <img src="/images/checks-passed.png" style={{ borderRadius: '0.5rem' }} />
-</Frame>
+**Foundation model providers like OpenAI and Anthropic**  
+These will partner with enterprises directly and sell through hyper-scalers
+(Azure/OpenAI, Oracle/Cohere, Google/Bard) and partnerships with consulting
+firms. They will provide foundation models (Claude 5 or GPT-7) with enterprise
+functionality (running in the customer’s VPC), and create an ecosystem of prompt
+engineers around themselves (much as Salesforce has done with app administrators
+and consultants). Open-source models will continue to proliferate throughout the
+enterprise, offering Databricks/MosaicML, Together and others an opportunity to
+capture the training and serving stack. The
+“[OpenAI has no moat”](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
+leak out of Google and Sam Altman’s
+[proclamation](https://www.wired.com/story/openai-ceo-sam-altman-the-age-of-giant-ai-models-is-already-over/)
+that the large model race is drawing to a close suggest that models will compete
+not on size, but rather on specific ergonomic qualities that help them
+outperform in specific situations (e.g. Med-PaLM 2 on PubMedQA).
 
-## Troubleshooting
+**Domain specific models — full stack applications that have trained their own
+models**  
+The need for these exist because of limited context windows, the existence of
+proprietary information that’s not easily absorbed into the large foundation
+models and the emergent capabilities of large models. For example, new code
+generation models could take advantage of emergent capabilities in inferring
+cloud architecture and code performance characteristics. These are emergent
+because the model could be trained only on Git data, not architecture schematics
+or code profiling charts. The trade-off is that the model gives up creativity —
+you can’t get code profiling summaries the way Shakespeare would have delivered
+them, but the model would still produce preferable results from a developer’s
+perspective.
 
-Here's how to solve some common problems when working with the CLI.
+**Platforms for building autonomous agents**  
+For these, the foundation model is not the atomic unit, as people gravitate
+towards more complex systems with multiple integrated components:
 
-<AccordionGroup>
-  <Accordion title="Mintlify is not loading">
-    Update to Node v18. Run `mintlify install` and try again.
-  </Accordion>
-  <Accordion title="No such file or directory on Windows">
-Go to the `C:/Users/Username/.mintlify/` directory and remove the `mint`
-folder. Then Open the Git Bash in this location and run `git clone
-https://github.com/mintlify/mint.git`.
+- Data extractors that take a person’s permissions and use them to collect data
+  (financials, code repositories etc)
+- Data storage, meaning a multimodal embeddings store like a vector database
+- Retrieval system and algorithms
+- UI / workflow engine to create agents through natural language
 
-Repeat step 3.
+These agents can act like an infinite army of researchers or “chiefs of staff”
+or really smart interns. They can be trained on a company’s tribal knowledge and
+kept recent/current through retrieval systems (feedback loop through localized
+OpenAI plugins within the company), and automate the many company-specific
+workflows that are too niche to support commercial products.
 
-  </Accordion>
-  <Accordion title="Getting an unknown error">
-    Try navigating to the root of your device and delete the ~/.mintlify folder.
-    Then run `mintlify dev` again.
-  </Accordion>
-</AccordionGroup>
+![](http://cms.baincapitalventures.com/wp-content/uploads/2023/07/AI-Stack.png)
 
-Curious about what changed in a CLI version? [Check out the CLI changelog.](/changelog/command-line)
+Founders building generative products and infrastructure have a unique
+opportunity to build generational companies, but have to choose their arena
+carefully. If you’re thinking about building in one of these areas, or think
+there are areas we haven’t explored that are standout categories, drop us a
+line. We’d love to hear from you. Reach us at
+[aaref@baincapital.com](mailto:aaref@baincapital.com) and
+[rgarg@baincapital.com](mailto:rgarg@baincapital.com).
+
+_Thanks to
+[Slater Stich](http://cms.baincapitalventures.com/team/slater-stich/),
+[Saanya Ojha](http://cms.baincapitalventures.com/team/saanya-ojha/) and
+[Sam Crowder](http://cms.baincapitalventures.com/team/sam-crowder/) for their
+contributions to this piece._
