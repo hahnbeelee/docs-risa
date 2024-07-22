@@ -28,13 +28,9 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference",
-      "openapi": "https://api.elevenlabs.io/openapi.json"
+      "url": "api-reference"
     }
   ],
-  "api": {
-    "baseUrl": "https://api.elevenlabs.io"
-  },
   "anchors": [
     {
       "name": "Documentation",
@@ -66,6 +62,18 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": ["api-reference/introduction"]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],
